@@ -56,7 +56,7 @@ class PostFix(object):
                     stack[-1] = char
                 else:
                     index = len(stack) - 1
-                    while (index >= 0 and self.__preceed[stack[index]] >
+                    while (index >= 0 and self.__preceed[stack[index]] >=
                             self.__preceed[char]):
                         res.append(stack[index])
                         index -= 1
