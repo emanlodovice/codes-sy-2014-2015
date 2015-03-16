@@ -2,6 +2,9 @@
 
 int main(void)
 {
+     // an awesome thing
+     /* what the hell
+     this is awesome */
      int a,b;
 
      printf("Enter an integer:\n");
